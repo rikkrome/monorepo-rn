@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		1A806CF7C5CF8ADF72BCD074 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0C1EF10C2F2478D651C15890 /* PrivacyInfo.xcprivacy */; };
-		3399AAB8D914D7DC7FD0A13D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA674752AAF79BA6FD9CBF5 /* ExpoModulesProvider.swift */; };
+		18DAE07407E06ABF5CB4AB1A /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563B20A82E125A47F9F724E6 /* ExpoModulesProvider.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		AE7137193F055E3B501ABA58 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2265B0CFDE0091F64C4716B6 /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		BE9AA278205300C261402B06 /* libPods-mobilea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E493DA04E765302141C885 /* libPods-mobilea.a */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
-		FD49919A2523009B0B159292 /* libPods-mobilea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9820915CF233FD520E1EDA44 /* libPods-mobilea.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C1EF10C2F2478D651C15890 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = mobilea/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* mobilea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobilea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mobilea/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mobilea/Info.plist; sourceTree = "<group>"; };
-		9820915CF233FD520E1EDA44 /* libPods-mobilea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobilea.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2265B0CFDE0091F64C4716B6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = mobilea/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		43E493DA04E765302141C885 /* libPods-mobilea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobilea.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5579B15FC07445007DDD2E5A /* Pods-mobilea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobilea.release.xcconfig"; path = "Target Support Files/Pods-mobilea/Pods-mobilea.release.xcconfig"; sourceTree = "<group>"; };
+		563B20A82E125A47F9F724E6 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-mobilea/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		89579D458D7E51159C922030 /* Pods-mobilea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobilea.debug.xcconfig"; path = "Target Support Files/Pods-mobilea/Pods-mobilea.debug.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = mobilea/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C29496E59E475F83ECEF80AA /* Pods-mobilea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobilea.release.xcconfig"; path = "Target Support Files/Pods-mobilea/Pods-mobilea.release.xcconfig"; sourceTree = "<group>"; };
-		CBA674752AAF79BA6FD9CBF5 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-mobilea/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		D0C8F2F23D08169DE2FD5B76 /* Pods-mobilea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobilea.debug.xcconfig"; path = "Target Support Files/Pods-mobilea/Pods-mobilea.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = mobilea/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* mobilea-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "mobilea-Bridging-Header.h"; path = "mobilea/mobilea-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD49919A2523009B0B159292 /* libPods-mobilea.a in Frameworks */,
+				BE9AA278205300C261402B06 /* libPods-mobilea.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,36 +53,28 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				0C1EF10C2F2478D651C15890 /* PrivacyInfo.xcprivacy */,
+				2265B0CFDE0091F64C4716B6 /* PrivacyInfo.xcprivacy */,
 			);
 			name = mobilea;
+			sourceTree = "<group>";
+		};
+		1B1470DF1BABA25A4B728508 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89579D458D7E51159C922030 /* Pods-mobilea.debug.xcconfig */,
+				5579B15FC07445007DDD2E5A /* Pods-mobilea.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9820915CF233FD520E1EDA44 /* libPods-mobilea.a */,
+				43E493DA04E765302141C885 /* libPods-mobilea.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		318AAA4A0A801B5D1A9D82DC /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				D41EACF3649DC7AF32645907 /* mobilea */,
-			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
-		66A85BA61B13FD66CA19C6C2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D0C8F2F23D08169DE2FD5B76 /* Pods-mobilea.debug.xcconfig */,
-				C29496E59E475F83ECEF80AA /* Pods-mobilea.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -99,8 +91,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				66A85BA61B13FD66CA19C6C2 /* Pods */,
-				318AAA4A0A801B5D1A9D82DC /* ExpoModulesProviders */,
+				1B1470DF1BABA25A4B728508 /* Pods */,
+				8CA9A7AB98D6E3673FC94AB6 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +107,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8CA9A7AB98D6E3673FC94AB6 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				9C4F592058F0F9E8EB753A03 /* mobilea */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		9C4F592058F0F9E8EB753A03 /* mobilea */ = {
+			isa = PBXGroup;
+			children = (
+				563B20A82E125A47F9F724E6 /* ExpoModulesProvider.swift */,
+			);
+			name = mobilea;
+			sourceTree = "<group>";
+		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,14 +130,6 @@
 			);
 			name = Supporting;
 			path = mobilea/Supporting;
-			sourceTree = "<group>";
-		};
-		D41EACF3649DC7AF32645907 /* mobilea */ = {
-			isa = PBXGroup;
-			children = (
-				CBA674752AAF79BA6FD9CBF5 /* ExpoModulesProvider.swift */,
-			);
-			name = mobilea;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mobilea" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				57FE9314997D9EAA3BA68CE5 /* [Expo] Configure project */,
+				E10194DBDF9F9FFFD170A27E /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				D22F8CE4CE4281129850737C /* [CP] Embed Pods Frameworks */,
+				92D1C6EACAFECDF7CDFBE0A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				1A806CF7C5CF8ADF72BCD074 /* PrivacyInfo.xcprivacy in Resources */,
+				AE7137193F055E3B501ABA58 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,25 +240,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		57FE9314997D9EAA3BA68CE5 /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-mobilea/expo-configure-project.sh\"\n";
-		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,7 +280,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobilea/Pods-mobilea-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D22F8CE4CE4281129850737C /* [CP] Embed Pods Frameworks */ = {
+		92D1C6EACAFECDF7CDFBE0A6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,6 +298,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobilea/Pods-mobilea-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E10194DBDF9F9FFFD170A27E /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-mobilea/expo-configure-project.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -325,7 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				3399AAB8D914D7DC7FD0A13D /* ExpoModulesProvider.swift in Sources */,
+				18DAE07407E06ABF5CB4AB1A /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +334,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0C8F2F23D08169DE2FD5B76 /* Pods-mobilea.debug.xcconfig */;
+			baseConfigurationReference = 89579D458D7E51159C922030 /* Pods-mobilea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -370,7 +370,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C29496E59E475F83ECEF80AA /* Pods-mobilea.release.xcconfig */;
+			baseConfigurationReference = 5579B15FC07445007DDD2E5A /* Pods-mobilea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

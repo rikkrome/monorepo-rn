@@ -5,7 +5,8 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import TestModule, { TestModuleView } from '@repo/test-module';
+import TestModule  from '@repo/test-expo-module';
+import { greeting } from '@repo/utils';
 
 export default function HomeScreen() {
   return (
@@ -50,6 +51,9 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
           <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          {/* <Text>PACKAGE TEST</Text>
+          <Text>{greeting}</Text> */}
+          <Text>PACKAGE TestModule</Text>
           <Text>{TestModule.hello()}</Text>
         </ThemedText>
       </ThemedView>
