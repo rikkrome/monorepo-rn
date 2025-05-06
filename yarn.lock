@@ -4576,7 +4576,7 @@ expo-splash-screen@~0.30.7:
   dependencies:
     "@expo/prebuild-config" "^9.0.5"
 
-expo-status-bar@2.2.3, expo-status-bar@~2.2.3:
+expo-status-bar@2.2.3:
   version "2.2.3"
   resolved "https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-2.2.3.tgz"
   integrity sha512-+c8R3AESBoduunxTJ8353SqKAKpxL6DvcD8VKBuh81zzJyUUbfB4CVjr1GufSJEKsMzNPXZU+HJwXx7Xh7lx8Q==

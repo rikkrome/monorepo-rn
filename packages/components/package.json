@@ -4,6 +4,7 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
+    "build": "expo-module prepare",
     "prepare": "expo-module prepare",
     "clean": "rm -rf dist build node_modules"
   },
