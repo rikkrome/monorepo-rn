@@ -5,9 +5,7 @@
     "paths": {
       "@/*": [
         "./*",
-      ],
-      "@repo/test-module": ["../packages/test-module/src/index"],
-      "@repo/test-module/*": ["../packages/test-module/src/*"]
+      ]
     }
   },
   "include": [

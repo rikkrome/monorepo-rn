@@ -1,12 +1,13 @@
 import { Image } from 'expo-image';
 import { Platform, StyleSheet, Text } from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
+// import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import TestModule  from '@repo/test-expo-module';
 import { greeting } from '@repo/utils';
+import { Button } from '@repo/components';
 
 export default function HomeScreen() {
   return (
@@ -51,12 +52,12 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
           <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-          {/* <Text>PACKAGE TEST</Text>
+        </ThemedText>
+      </ThemedView>
           <Text>{greeting}</Text> */}
           <Text>PACKAGE TestModule</Text>
           <Text>{TestModule.hello()}</Text>
-        </ThemedText>
-      </ThemedView>
+          <Button text="Click me" onPress={() => {}} />
     </ParallaxScrollView>
   );
 }
