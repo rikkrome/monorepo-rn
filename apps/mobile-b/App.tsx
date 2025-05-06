@@ -1,8 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import TestModule  from '@repo/test-expo-module';
-import { greeting } from '@repo/utils';
-import { Button } from '@repo/components';
+import { Button } from '@repo/components'
+import TestModule from '@repo/test-expo-module'
+import { greeting } from '@repo/utils'
+import { StatusBar } from 'expo-status-bar'
+import { StyleSheet, Text, View } from 'react-native'
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
       <Text>{TestModule.hello()}</Text>
       <Button text="Click me" onPress={() => {}} />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -24,4 +24,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})

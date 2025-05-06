@@ -1,13 +1,12 @@
-import { Image } from 'expo-image';
-import { Platform, StyleSheet, Text } from 'react-native';
-
 // import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
-import TestModule  from '@repo/test-expo-module';
-import { greeting } from '@repo/utils';
-import { Button } from '@repo/components';
+import ParallaxScrollView from '@/components/ParallaxScrollView'
+import { ThemedText } from '@/components/ThemedText'
+import { ThemedView } from '@/components/ThemedView'
+import { Button } from '@repo/components'
+import TestModule from '@repo/test-expo-module'
+import { greeting } from '@repo/utils'
+import { Image } from 'expo-image'
+import { Platform, StyleSheet, Text } from 'react-native'
 
 export default function HomeScreen() {
   return (
@@ -26,8 +25,9 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
+          Edit{' '}
+          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText>{' '}
+          to see changes. Press{' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
@@ -48,18 +48,21 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
         <ThemedText>
           {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
+          <ThemedText type="defaultSemiBold">
+            npm run reset-project
+          </ThemedText>{' '}
+          to get a fresh <ThemedText type="defaultSemiBold">app</ThemedText>{' '}
+          directory. This will move the current{' '}
           <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
       </ThemedView>
-          <Text>{greeting}</Text> */}
-          <Text>PACKAGE TestModule</Text>
-          <Text>{TestModule.hello()}</Text>
-          <Button text="Click me" onPress={() => {}} />
+      <Text>{greeting}</Text>
+      <Text>PACKAGE TestModule</Text>
+      <Text>{TestModule.hello()}</Text>
+      <Button text="Click me" onPress={() => {}} />
     </ParallaxScrollView>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -79,4 +82,4 @@ const styles = StyleSheet.create({
     left: 0,
     position: 'absolute',
   },
-});
+})

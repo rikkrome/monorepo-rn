@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "type": "module",
   "scripts": {
+    "lint": "eslint . --ext .ts,.tsx --fix",
     "build": "expo-module prepare",
     "prepare": "expo-module prepare",
     "clean": "rm -rf dist build node_modules"
@@ -24,6 +26,7 @@
   "homepage": "https://github.com/rikkrome/monorepo-rn#readme",
   "devDependencies": {
     "@repo/typescript-config": "*",
+    "@repo/eslint-config": "*",
     "@types/react": "19.0.10",
     "expo": "53.0.4",
     "expo-module-scripts": "4.1.6",

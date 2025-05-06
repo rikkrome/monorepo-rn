@@ -1,6 +1,6 @@
-import * as React from 'react';
+import * as React from 'react'
 
-import { TestExpoModuleViewProps } from './TestExpoModule.types';
+import { TestExpoModuleViewProps } from './TestExpoModule.types'
 
 export default function TestExpoModuleView(props: TestExpoModuleViewProps) {
   return (
@@ -11,5 +11,5 @@ export default function TestExpoModuleView(props: TestExpoModuleViewProps) {
         onLoad={() => props.onLoad({ nativeEvent: { url: props.url } })}
       />
     </div>
-  );
+  )
 }

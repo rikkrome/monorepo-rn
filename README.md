@@ -1,1 +1,6 @@
-# React-Native Monorepo 
+# React-Native Monorepo
+
+```
+yarn
+yarn build
+```

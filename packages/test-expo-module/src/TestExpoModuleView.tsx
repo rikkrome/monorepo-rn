@@ -1,11 +1,11 @@
-import { requireNativeView } from 'expo';
-import * as React from 'react';
+import { requireNativeView } from 'expo'
+import * as React from 'react'
 
-import { TestExpoModuleViewProps } from './TestExpoModule.types';
+import { TestExpoModuleViewProps } from './TestExpoModule.types'
 
 const NativeView: React.ComponentType<TestExpoModuleViewProps> =
-  requireNativeView('TestExpoModule');
+  requireNativeView('TestExpoModule')
 
 export default function TestExpoModuleView(props: TestExpoModuleViewProps) {
-  return <NativeView {...props} />;
+  return <NativeView {...props} />
 }

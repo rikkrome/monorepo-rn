@@ -4,10 +4,11 @@
   "description": "My new module",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "type": "module",
   "scripts": {
     "expo-build": "expo-module build",
     "expo-clean": "expo-module clean",
-    "lint": "expo-module lint",
+    "lint": "eslint . --ext .ts,.tsx --fix",
     "test": "expo-module test",
     "build": "expo-module prepare",
     "prepare": "expo-module prepare",

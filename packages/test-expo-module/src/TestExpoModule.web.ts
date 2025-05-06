@@ -1,15 +1,15 @@
-import { registerWebModule, NativeModule } from 'expo';
+import { NativeModule, registerWebModule } from 'expo'
 
-import { TestExpoModuleEvents } from './TestExpoModule.types';
+import { TestExpoModuleEvents } from './TestExpoModule.types'
 
 class TestExpoModule extends NativeModule<TestExpoModuleEvents> {
-  PI = Math.PI;
+  PI = Math.PI
   async setValueAsync(value: string): Promise<void> {
-    this.emit('onChange', { value });
+    this.emit('onChange', { value })
   }
   hello() {
-    return 'Hello world! 👋';
+    return 'Hello world! 👋'
   }
 }
 
-export default registerWebModule(TestExpoModule, 'TestExpoModule');
+export default registerWebModule(TestExpoModule, 'TestExpoModule')
