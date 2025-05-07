@@ -4,10 +4,9 @@
   "type": "module",
   "private": true,
   "exports": {
-    "./expo": "./expo.js",
     "./base": "./base.js",
-    "./next-js": "./next.js",
-    "./react-internal": "./react-internal.js"
+    "./react-native": "./react-native.js",
+    "./react-native-module": "./react-native-module.js"
   },
   "devDependencies": {
     "@eslint/js": "9.25.0",
