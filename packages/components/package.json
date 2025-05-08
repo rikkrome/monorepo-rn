@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx --fix",
+    "typecheck": "tsc",
     "build": "expo-module prepare",
     "prepare": "expo-module prepare",
     "clean": "rm -rf dist build node_modules"

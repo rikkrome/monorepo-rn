@@ -1,0 +1,12 @@
+{
+    "extends": "./base.json",
+    "compilerOptions": {
+      "jsx": "react-native",
+      "allowJs": true,
+      "noEmit": true,
+      "isolatedModules": true,
+      "moduleResolution": "bundler"
+    },
+    "include": ["**/*.ts", "**/*.tsx"]
+  }
+  

@@ -12,7 +12,7 @@ export default function App() {
       <Text>{greeting}</Text>
       <Text>PACKAGE TestModule</Text>
       <Text>{TestModule.hello()}</Text>
-      <Button text="Click me" onPress={() => {}} />
+      <Button text="Click me" />
     </View>
   )
 }

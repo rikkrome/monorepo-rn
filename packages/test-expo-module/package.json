@@ -9,6 +9,7 @@
     "expo-build": "expo-module build",
     "expo-clean": "expo-module clean",
     "lint": "eslint . --ext .ts,.tsx --fix",
+    "typecheck": "tsc",
     "test": "expo-module test",
     "build": "expo-module prepare",
     "prepare": "expo-module prepare",

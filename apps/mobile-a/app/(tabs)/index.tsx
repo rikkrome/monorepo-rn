@@ -60,7 +60,7 @@ export default function HomeScreen() {
       <Text>{greeting}</Text>
       <Text>PACKAGE TestModule</Text>
       <Text>{TestModule.hello()}</Text>
-      <Button text="Click me" onPress={() => {}} />
+      <Button text="Click me" />
     </ParallaxScrollView>
   )
 }
