@@ -32,6 +32,10 @@
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "typecheck": "tsc",
+    "clean": "rm -rf .expo .expo-shared dist build node_modules",
+    "lint": "eslint . --ext .ts,.tsx --fix"
+
   }
 }
