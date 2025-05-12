@@ -1,0 +1,6 @@
+android/*
+ios/*
+package.json
+.storybook/storybook.requires.ts
+**/__generated__/**
+
