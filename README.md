@@ -69,12 +69,16 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
 
-## Build
+---
 
+# Build
+
+## build packages
 ```
 yarn
 yarn build
 ```
+
  ### build mobile app
  ```
  cd apps/mobile-b
@@ -87,8 +91,27 @@ yarn build
 If you run `yarn start` then type `i` to build ios or `a` for Android; it will not build the native modules. You will need to run `yarn ios` or `yarn android`.
 
 
+# Development 
 
-# monorepo 
+## watch
+This will rebuild changes in the packages. Only works with JS changes.
+```
+yarn dev
+```
+
+### Build mobile-b app -  ios
+```
+yarn workspace mobile-b ios
+```
+
+### Build mobile-b app -  android
+```
+yarn workspace mobile-b android
+```
+
+---
+
+# monorepo notes
 
 ## Turborepo - Expo
 Turborepo is used for running CI task. 
@@ -114,13 +137,14 @@ npx expo run:android
 ```
 
 
-# native module 
+## native module 
 
 ```
 npx create-expo-module packages/MODULE_NAME --no-example
 
 cd into the module 
 ```
+
 ## Links
 - https://docs.expo.dev/guides/monorepos/
 - https://docs.expo.dev/modules/native-module-tutorial/

@@ -12,6 +12,7 @@
     "typecheck": "tsc",
     "test": "expo-module test",
     "build": "EXPO_NONINTERACTIVE=1 expo-module build",
+    "dev": "expo-module build --watch",
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module",
     "open:ios": "xed example/ios",

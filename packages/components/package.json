@@ -8,6 +8,7 @@
     "lint": "eslint . --ext .ts,.tsx --fix",
     "typecheck": "tsc",
     "build": "EXPO_NONINTERACTIVE=1 expo-module build",
+    "dev": "expo-module build --watch",
     "clean": "rm -rf dist build node_modules"
   },
   "author": "",
