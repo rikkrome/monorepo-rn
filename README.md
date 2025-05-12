@@ -1,10 +1,5 @@
 # React-Native Monorepo
 
-```
-yarn
-yarn build
-```
-
 # Setup and Environment
 
 ## react-native
