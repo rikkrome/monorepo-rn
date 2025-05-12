@@ -4,7 +4,9 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "prepare": "expo-module prepare"
+    "prepare": "expo-module prepare",
+    "build": "EXPO_NONINTERACTIVE=1 expo-module build",
+    "clean": "rm -rf dist build node_modules"
   },
   "author": "",
   "license": "ISC",
