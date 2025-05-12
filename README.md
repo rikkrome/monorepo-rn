@@ -93,6 +93,10 @@ This will rebuild changes in the packages. Only works with JS changes.
 ```
 yarn dev
 ```
+## Build apps
+- mobile-b: blank app
+- mobile-with-nav expo example app with react navigation
+    - https://github.com/expo/examples/tree/master/with-react-navigation
 
 ### Build mobile-b app -  ios
 ```
@@ -103,6 +107,27 @@ yarn workspace mobile-b ios
 ```
 yarn workspace mobile-b android
 ```
+
+## How to add a new example app 
+- https://github.com/expo/examples/tree/master
+
+```
+npx create-expo ./<path> --example <Example>
+ex:
+npx create-expo-app@latest mobile-with-nav --example with-react-navigation
+
+cd mobile-with-nav
+npx expo run:ios
+npx expo run:android
+```
+
+update if app.json needed - Will need to update if you get an error since it's in a monorepo. Look at the other app example to see how `index,js` and `App.tsx` is set up.
+```    
+"expo": {
+  "entryPoint": "./src/index.js"
+}
+```
+
 
 ---
 
@@ -119,7 +144,7 @@ Here are the commands I used to setup the expo projects.
 
 Create starter expo app
 ```
- npx create-expo-app@latest
+npx create-expo-app@latest
 // cd into project
 npx expo install expo-dev-client
 ```
